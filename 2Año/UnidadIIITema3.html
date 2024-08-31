@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>S4A</title>
     <style>
         body {
@@ -15,18 +17,18 @@
     <h2>¿Qué es Sratch For Arduino (S4A)?</h2>
     <hr>
     <p>Es una plataforma de programación visual que combina el lenguaje de programación Scratch con el mundo de Arduino. Incluye nuevos bloques para controlar sensores y actuadores conectados a la placa microcontroladora.</p>
-    <img width="50%" src="../imgs/S4A.jpg">
+    <img src="../imgs/S4A.jpg" class="img-fluid mx-auto">
     <p>Es importante saber que nuestra placa Arduino sólo ejecutará el programa mientras esté conectada al PC. Con S4A no podemos conectar la placa Arduino a una fuente de alimentación y que siga ejecutando el último programa que le hemos cargado.</p>
     <p>Además de instalar el IDE de Arduino en la computadora y el Firmware en la Placa microcontroladora, necesitaremos instalar el IDE de S4A para que puedas desarrollar tus programas. Para ello:</p>
     <ol>
         <li>Abrir la página <a href="http://s4a.cat/index_es.html" target="_blank">http://s4a.cat/index_es.html</a></li>
         <li>Seleccionar <b>Windows</b></li>
-        <img src="../imgs/InstalarS4A1.png">
+        <img src="../imgs/InstalarS4A1.png" class="img-fluid mx-auto">
         <li>Desde la carpeta de descargas, descomprimir y abrir el archivo <b>SA16</b>.<li>Seguir los pasos del asistente para Instalar el programa.</li>
     </ol>
     <p>Finalmente, abre S4A y verás el mensaje “Buscando placa…” espera unos minutos hasta que se sincronice la placa con el IDE y listo. ¡Ya puedes comenzar a programar!</p>
     <h3>Entorno de S4A:</h3>
-    <img src="../imgs/S4A2.png">
+    <img src="../imgs/S4A2.png" class="img-fluid mx-auto">
     <ol>
         <li>Tipos de bloques.</li>
         <li>Listado de bloques de una determinada categoría.</li>
@@ -41,9 +43,26 @@
         <li>6 entradas analógicas</li>
         <li>2 entradas digitales (2 y 3)</li>
         <li>3 salidas analógicas PWM (5, 6 y 9)</li>
-        <li>3 salidas digitales (10, 11 y 13)</li>
-        <li>4 salidas digitales para conectar servomotores (4, 7, 8 y 12)</li>
+        <li>4 salidas digitales (10, 11, 12 y 13)</li>
+        <li>3 salidas digitales para conectar servomotores (4, 7 y 8)</li>
     </ul>
-    <h3>Actividad:</h3>
+    <img src="../imgs/PinesS4A.png" class="img-fluid mx-auto">
+    <h3>Crear un Programa: Blinking LED</h3>
+    <p>Nuestro primer programa será un LED que parpadea cada segundo. Para ello vamos a utilizar la salida digital 13 porque tiene un LED integrado en la placa UNO, así no tendremos que realizar ningún circuito. El Programa sería así:</p>
+    <img src="../imgs/BlinkingLED13.png" class="img-fluid mx-auto">
+    <p>Al ejecutarlo, pulsando el botón bandera verde, notarás que el LED integrado parpadea:</p>
+    <img src="../imgs/BlinkingLED.png" class="img-fluid mx-auto">
+    <h3>Proyectos en S4A:</h3>
+    <p>Los proyectos que realizaremos en la Unidad, serán presentados en un informe de formato digital con la siguiente estructura:</p>
+    <ol>
+        <li>Portada o caratula: debe contener información básica como: Identificación del colegio, asignatura, docente, curso, integrantes del equipo, Nro. Del Proyecto, Nombre del proyecto y fecha de presentación.</li>
+        <li>Objetivo del proyecto: es la meta o fin que deseamos alcanzar.</li>
+        <li>Componentes: descripción de cada elemento electrónico utilizado.</li>
+        <li>Fundamentos teóricos: definir los términos o procesos que intervienen en la realización del proyecto, así como la explicación técnica de cómo funciona el mismo.</li>
+        <li>Programación: mostrar imágenes de cada objeto, sus disfraces y programación.</li>
+        <li>Funcionamiento: presentar fotos del programa en ejecución</li>
+        <li>Conclusión: indicar qué problemas se presentaron y cómo lo solucionaron, qué aprendizajes obtuvieron y presentar alguna propuesta para la ampliación del proyecto.</li>
+    </ol>
+    <p>En el siguiente link encontrarás un ejemplo de proyecto, te servirá de guía a la hora de realizar futuros trabajos: <a href="../docs/Proyecto 0.docx">Proyecto 0</a></p>
 </body>
 </html>
