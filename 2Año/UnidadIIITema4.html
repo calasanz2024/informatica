@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <!--BOOTSTRAP CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Salidas Digitales</title>
+    <style>
+        body {
+            margin: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <h2>Salidas Digitales</h2>
+    <hr>
+    <p>Una salida digital es un pin que puede configurarse para enviar una señal de "alto" o "bajo". En términos sencillos, "alto" significa que el pin envía una señal de 5V (corriente) y "bajo" significa que el pin envía 0V (sin corriente). Esto es útil para controlar dispositivos como LEDs, motores, y otros componentes electrónicos.</p>
+    <h3>Blinking LED con pin 10:</h3>
+    <p>Vamos a desarrollar el mismo ejercicio que en el tema anterior, pero ahora en vez de usar el LED integrado (Pin 13), utilizaremos el pin 10 como salida digital. Para ello, utilizaremos los siguientes componentes: 1 LED, 1 resistor 220ohms, cables m/m, protoboar y tarjeta UNO con cable USB.</p>
+    <p>Armar el circuito como muestra la imagen:</p>
+    <img src="../imgs/LED10.png" class="img-fluid mx-auto">
+    <br><br>
+    <ol>
+        <li>Conectar el LED en la protoboard de manera que, la pata más larga, es decir el ánodo (+) quede a la derecha y el cátodo o pata corta (-) a la izquierda.</li>
+        <li>Conectar el resistor de 220Ω de manera que quede alineado con el cátodo del LED y el otro extemo con el bus negativo del protoboard.</li>
+        <li>Conectar un cable desde el pin digital 10 alineado con el ánodo del LED.</li>
+        <li>Conectar otro cable desde el GND con el bus negativo del protoboard.</li>
+    </ol>
+    <p>Ahora vamos a realizar el programa en S4A, recuerda conectar la placa al puerto USB y comprobar si existe comunicación. Haz clic en los siguientes enlaces para descargar los disfraces que utilizaremos en el programa: <a href="../imgs/LedApagado.jpg" download="LedApagado">LedApagado</a> y <a href="../imgs/LedEncendido.jpg" download="LedEncendido">LedEncendido</a></p>
+    <img src="../imgs/BlinkingLED10.png" class="img-fluid mx-auto">
+    <br><br>
+    <h3>Actividad:</h3>
+    <p>Realizar un simulador de un semáforo peatonal. Tanto la luz de avanzar como la de detenerse dura 6 segundos. Utiliza los pines digital 10 y 11 para tal fin, e importa el disfraz de un <a href="../imgs/semPeatonal.jpg" download="semPeatonal">semáforo peatonal</a> que cambie de acuerdo a lo que muestra el circuito.</p>
+</body>
+</html>
