@@ -1,0 +1,37 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: violet;
+    color: #000;
+}
+header{
+    background-color: chocolate;
+    color: #000;
+    padding: 20px;
+    text-align: center;
+}
+nav{
+    background-color: darkgreen;
+    padding: 10px;
+}
+main{
+    padding: 20px;
+}
+h1, h2{
+    color: aqua;
+}
+img{
+    width: 20px;
+    color: blue;
+    text-align: justify;
+    padding: 10px;
+    bottom: 0;
+    width: 20%;
+}
+footer{
+    background-color: chartreuse;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 20%;
+}
