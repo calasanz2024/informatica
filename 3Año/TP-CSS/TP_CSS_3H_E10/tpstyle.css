@@ -1,0 +1,23 @@
+h1{
+    color:tomato;
+    text-align: center;
+}
+nav{
+    color:blueviolet;
+    :hover {background-color: palegreen
+    }  
+}
+h2{
+    color:royalblue;
+    background-color:aliceblue
+}
+p{
+    color:darkgreen;
+    text-decoration:overline;
+}
+ul{
+    color:darkgreen
+}
+img{
+height: auto;
+}

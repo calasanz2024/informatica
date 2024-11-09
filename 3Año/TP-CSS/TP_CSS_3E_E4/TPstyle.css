@@ -1,0 +1,13 @@
+h1{
+    text-decoration: underline;
+    color: deeppink;
+    text-decoration: solid;
+}
+h2{
+    text-decoration: dotted;
+    color: rgb(230, 29, 29);
+    text-decoration: wavy;
+}
+body{
+    background-color:aqua;
+}
